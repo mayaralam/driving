@@ -77,7 +77,7 @@ export default function nav() {
         </div>
         <div className="navbar-end flex gap-3 items-center">
           <svg
-            className="dark:text-gray-300 text-gray-600 rounded-xl"
+            className="dark:text-gray-300 text-gray-600 rounded-xl hidden md:flex"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -90,7 +90,7 @@ export default function nav() {
               stroke-width="1"
             />
           </svg>
-          <p className="text-xs md:text-md dark:text-gray-300 text-gray-600">(555) 123-4567</p>
+          <p className="text-xs md:text-md dark:text-gray-300 text-gray-600 hidden md:flex">(555) 123-4567</p>
           <a
             onClick={() => navigate("/schools")}
             className="btn py-2 px-4 cursor-pointer bg-gradient-to-r from-blue-500 to-orange-400  text-white bg-black dark:text-black dark:bg-white rounded-lg"
